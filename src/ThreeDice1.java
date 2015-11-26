@@ -1,18 +1,28 @@
 
-public class ThreeDice1 {
+public class ThreeDice1 extends Dice {
 
-	private Dice D1;
-	private Dice D2;
-	private Dice D3;
+	
+	
+	@Override
 	public int Throw()
 		{
-			Dice D1 = new Dice();
+			/*Dice D1 = new Dice();
 			D1=D1;
 			Dice D2 = new Dice();
 			Dice D3 = new Dice();
 
 			return (D1.Throw() + D2.Throw() + D3.Throw()) / 3;
-			
+			*/
+		
+		Dice Diceone= new Dice();
+		int one=Diceone.Throw();
+		int two =Diceone.Throw();
+		int three=Diceone.Throw();
+		
+		return(one+two+three/3);
+		
+		
+		
 		}
 	
 	

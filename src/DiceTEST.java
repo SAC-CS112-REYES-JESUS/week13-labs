@@ -10,6 +10,7 @@ public class DiceTEST {
 		ThreeDice1 Dice3= new ThreeDice1();
 		int hello=Dice3.Throw();
 		
+		System.out.println(hello);
 		
 		System.out.println(Dice3.toString());
 		//System.out.println(hello.toString());
